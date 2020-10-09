@@ -8,9 +8,8 @@
     "prettier/react"
   ],
   "rules": {
-    "semi": ["error", "always"],
-    "quotes": ["error", "double"],
     "no-console": 1,
+    "quotes": "error",
     "jest/no-disabled-tests": "warn",
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",
