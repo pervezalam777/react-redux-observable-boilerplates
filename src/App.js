@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 const Title = (props) => <div>{props.text}</div>;
 Title.propTypes = {
@@ -10,7 +10,7 @@ function App() {
 	const [title] = useState("Boilerplate React, Redux, Redux-Observable");
 	return (
 		<div>
-			<Title text={title} />
+			<Title text={title} /> 
 		</div>
 	);
 }
