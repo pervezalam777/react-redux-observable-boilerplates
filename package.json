@@ -17,7 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build:development": "env-cmd -f .env.development react-scripts build",
+    "build:production": "env-cmd -f .env.production react-scripts build",
     "test": "react-scripts test",
     "format": "prettier \"**/*.(js|html|css|scss)\" --write",
     "lint-fix": "eslint --fix --ignore-path .gitignore .",
@@ -46,6 +47,7 @@
     }
   },
   "devDependencies": {
+    "env-cmd": "^10.1.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-import": "^2.22.1",
