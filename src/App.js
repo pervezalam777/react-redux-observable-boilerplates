@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-const Title = (props) => <div>{props.text}</div>;
+const Title = (props) => <h1>{props.text}</h1>;
 Title.propTypes = {
 	text: PropTypes.string.isRequired
 };
@@ -11,6 +11,7 @@ function App() {
 	return (
 		<div>
 			<Title text={title} />
+			<span>{process.env.REACT_APP_VERSION}</span>
 		</div>
 	);
 }
