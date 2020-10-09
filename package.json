@@ -20,6 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "format": "prettier \"**/*.(js|html|css|scss)\" --write",
+    "lint-fix": "eslint --fix --ignore-path .gitignore .",
     "lint": "eslint --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "analyze": "source-map-explorer 'build/static/js/*.js'"
