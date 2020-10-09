@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "format": "prettier \"**/*.(js|html|css|scss)\" --write",
-    "lint": "eslint --fix --ignore-path .gitignore .",
+    "lint": "eslint --ignore-path .gitignore .",
     "precommit": "npm run lint"
 
   },
