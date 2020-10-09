@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "format": "prettier \"**/*.(js|html)\" --write",
     "lint": "eslint --fix --ignore-path .gitignore .",
-    "precommit": "npm run format && npm run lint"
+    "precommit": "npm run lint"
 
   },
   "eslintConfig": {
