@@ -9,7 +9,8 @@
   ],
   "rules": {
     "no-console": 1,
-    "quotes": "error",
+    "quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-single"],
     "jest/no-disabled-tests": "warn",
     "jest/no-focused-tests": "error",
     "jest/no-identical-title": "error",

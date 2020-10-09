@@ -10,7 +10,7 @@ function App() {
 	const [title] = useState("Boilerplate React, Redux, Redux-Observable");
 	return (
 		<div>
-			<Title text={title} /> 
+			<Title text={title} />  
 		</div>
 	);
 }
