@@ -1,8 +1,10 @@
+// External dependencies
 import { configureStore } from '@reduxjs/toolkit';
 
-import reducer from 'core/store/reducer';
-import middleware, { epicMiddleware } from 'core/store/middleware';
-import rootEpic from 'core/store/epic';
+// Internal dependencies
+import reducer from 'core/store/root.reducer';
+import middleware, { epicMiddleware } from 'core/store/epic.middleware';
+import rootEpic from 'core/store/root.epic';
 
 const store = configureStore({
 	reducer,
